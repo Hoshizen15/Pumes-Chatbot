@@ -89,6 +89,6 @@ if __name__ == "__main__":
             response = chatbot_response(user_input)
             st.write("Bot:", response)
     else:
-        app.run()
+        app.run(port=5001)
 
         
