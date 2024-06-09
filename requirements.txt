@@ -4,3 +4,4 @@ nltk
 numpy
 tensorflow
 keras
+pickle
