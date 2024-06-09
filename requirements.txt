@@ -4,4 +4,3 @@ streamlit
 nltk
 numpy
 tensorflow
-pickle5
