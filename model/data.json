@@ -1,0 +1,408 @@
+{"intents": [
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Maaf, saya tidak mengerti apa yang kamu maksud.", 
+        "Maaf, untuk saat ini chatbot ini belum dapat menjawab pertanyaan kamu."],
+     "context": [""]
+    },
+    {"tag": "greeting_sore",
+        "patterns": ["selamat sore"],
+        "responses": ["Selamat Sore"],
+        "context": [""]
+    },
+    {"tag": "greeting_malam",
+        "patterns": ["selamat malam", "selamat malem"],
+        "responses": ["Selamat Malam"],
+        "context": [""]
+    },
+    {
+        "tag": "greeting1",
+        "patterns": ["halo"],
+        "responses": ["Halo, selamat datang! Apakah ada yang bisa saya bantu terkait kesehatan wanita?"],
+        "context": [""]
+    },
+    {
+        "tag": "greeting2",
+        "patterns": ["hello"],
+        "responses": ["Hello, selamat datang! Apakah ada yang bisa saya bantu terkait kesehatan wanita?"],
+        "context": [""]
+    },
+    {
+        "tag": "greeting3",
+        "patterns": ["hai"],
+        "responses": ["Hai, selamat datang! Apakah ada yang bisa saya bantu terkait kesehatan wanita?"],
+        "context": [""]
+    },
+    {
+        "tag": "pengalaman1",
+        "patterns": ["selesai"],
+        "responses": ["Selesai. Apakah ada yang ingin ditanyakan terkait kesehatan wanita?"],
+        "context": [""]
+    },
+    {
+        "tag": "pengalaman2",
+        "patterns": ["Masalah"],
+        "responses": ["Apakah ada yang ingin Anda diskusikan terkait kesehatan wanita?"],
+        "context": [""]
+    },
+    {
+        "tag": "pengalaman3",
+        "patterns": ["Permasalahan"],
+        "responses": ["Ada yang bisa saya bantu terkait permasalahan kesehatan wanita?"],
+        "context": [""]
+    },
+    {
+        "tag": "penutup1",
+        "patterns": ["terima kasih"],
+        "responses": ["Terima kasih telah menghubungi kami. Semoga sehat selalu!"],
+        "context": [""]
+    },
+    {
+        "tag": "fertility1",
+        "patterns": ["Fertilisasi In Vitro"],
+        "responses": ["Fertilisasi In Vitro (FIV) adalah salah satu teknik reproduksi buatan. Apakah Anda ingin mengetahui lebih lanjut tentang prosedur ini?"],
+        "context": [""]
+    },
+    {
+        "tag": "fertility2",
+        "patterns": ["Kesuburan"],
+        "responses": ["Kesuburan wanita dapat dipengaruhi oleh banyak faktor, termasuk usia, gaya hidup, dan kondisi kesehatan. Ada yang bisa saya bantu tentang masalah kesuburan?"],
+        "context": [""]
+    },
+    {
+        "tag": "fertility3",
+        "patterns": ["Menstruasi Tidak Teratur"],
+        "responses": ["Menstruasi tidak teratur bisa menjadi tanda masalah kesehatan wanita. Apakah Anda ingin mengetahui penyebab dan penanganannya?"],
+        "context": [""]
+    },
+    {
+        "tag": "pregnancy1",
+        "patterns": ["Tanda Awal Kehamilan"],
+        "responses": ["Tanda awal kehamilan dapat berbeda untuk setiap wanita, tetapi umumnya termasuk mual, muntah, dan peningkatan sensitivitas payudara. Apakah Anda ingin mengetahui lebih lanjut?"],
+        "context": [""]
+    },
+    {
+        "tag": "pregnancy2",
+        "patterns": ["Perawatan Selama Kehamilan"],
+        "responses": ["Perawatan selama kehamilan sangat penting untuk kesehatan ibu dan bayi. Apakah Anda ingin mengetahui lebih lanjut tentang perawatan prenatal?"],
+        "context": [""]
+    },
+    {
+        "tag": "pregnancy3",
+        "patterns": ["Tes Kehamilan"],
+        "responses": ["Tes kehamilan dapat dilakukan menggunakan tes urin atau tes darah. Apakah Anda ingin mengetahui lebih lanjut tentang cara kerjanya?"],
+        "context": [""]
+    },
+    {
+        "tag": "menopause1",
+        "patterns": ["Gejala Menopause"],
+        "responses": ["Gejala menopause termasuk hot flashes, insomnia, dan perubahan mood. Apakah Anda ingin mengetahui cara mengelola gejala ini?"],
+        "context": [""]
+    },
+    {
+        "tag": "menopause2",
+        "patterns": ["Umur Menopause"],
+        "responses": ["Umur menopause bisa bervariasi, tetapi umumnya terjadi antara usia 45-55 tahun. Apakah Anda ingin mengetahui lebih lanjut tentang faktor yang mempengaruhinya?"],
+        "context": [""]
+    },
+    {
+        "tag": "menopause3",
+        "patterns": ["Pengobatan Menopause"],
+        "responses": ["Ada berbagai pilihan pengobatan untuk mengelola gejala menopause, termasuk terapi hormon dan obat-obatan non-hormonal. Apakah Anda ingin mengetahui lebih lanjut?"],
+        "context": [""]
+    },
+    {
+        "tag": "breast_cancer1",
+        "patterns": ["Deteksi Dini Kanker Payudara"],
+        "responses": ["Deteksi dini kanker payudara sangat penting. Apakah Anda ingin mengetahui lebih lanjut tentang metode deteksi dini seperti mamografi dan pemeriksaan payudara sendiri?"],
+        "context": [""]
+    },
+    {
+        "tag": "breast_cancer2",
+        "patterns": ["Faktor Risiko Kanker Payudara"],
+        "responses": ["Ada banyak faktor risiko yang dapat meningkatkan kemungkinan seseorang mengembangkan kanker payudara, termasuk faktor genetik dan gaya hidup. Apakah Anda ingin mengetahui lebih lanjut?"],
+        "context": [""]
+    },
+    {
+        "tag": "breast_cancer3",
+        "patterns": ["Pengobatan Kanker Payudara"],
+        "responses": ["Pilihan pengobatan untuk kanker payudara dapat mencakup operasi, kemoterapi, radioterapi, terapi hormon, dan terapi target. Setiap kasus dapat memerlukan pendekatan yang berbeda tergantung pada stadium dan karakteristik individu. Apakah Anda ingin mengetahui lebih lanjut?"],
+        "context": [""]
+    },
+    {
+        "tag": "menstruasi1",
+        "patterns": ["Menstruasi terlambat"],
+        "responses": ["Menstruasi terlambat bisa disebabkan oleh berbagai faktor, termasuk stres, perubahan hormon, atau kehamilan. Apakah Anda ingin mengetahui lebih lanjut?"],
+        "context": [""]
+    },
+    {
+        "tag": "polip1",
+        "patterns": ["Polip Rahim"],
+        "responses": ["Polip rahim adalah pertumbuhan jinak di dalam rahim yang bisa menyebabkan pendarahan abnormal. Apakah Anda ingin mengetahui lebih lanjut tentang gejala dan pengobatannya?"],
+        "context": [""]
+    },
+    {
+        "tag": "infeksi1",
+        "patterns": ["Infeksi Saluran Kencing"],
+        "responses": ["Infeksi saluran kemih (ISK) umum terjadi pada wanita dan bisa menyebabkan gejala seperti nyeri saat buang air kecil dan sering buang air kecil. Apakah Anda ingin mengetahui lebih lanjut tentang penyebab dan pengobatannya?"],
+        "context": [""]
+    },
+    {
+        "tag": "endometriosis1",
+        "patterns": ["Endometriosis"],
+        "responses": ["Endometriosis adalah kondisi di mana jaringan yang biasanya tumbuh di dalam rahim mulai tumbuh di luar rahim, menyebabkan nyeri dan gangguan reproduksi. Apakah Anda ingin mengetahui lebih lanjut?"],
+        "context": [""]
+    },
+    {
+        "tag": "kb1",
+        "patterns": ["Metode Kontrasepsi"],
+        "responses": ["Ada banyak metode kontrasepsi yang tersedia, termasuk pil KB, IUD, suntik, dan kondom. Apakah Anda ingin mengetahui lebih lanjut tentang opsi yang tersedia?"],
+        "context": [""]
+    },
+    {
+        "tag": "sts1",
+        "patterns": ["Seks Tanpa Penyakit"],
+        "responses": ["Penting untuk berpraktik seks yang aman untuk mencegah penularan penyakit menular seksual (PMS). Apakah Anda ingin mengetahui lebih lanjut tentang cara melindungi diri dari PMS?"],
+        "context": [""]
+    },
+    {
+        "tag": "ovulasi1",
+        "patterns": ["Periode Ovulasi"],
+        "responses": ["Ovulasi terjadi ketika sel telur dilepaskan dari ovarium dan siap untuk dibuahi. Apakah Anda ingin mengetahui lebih lanjut tentang tanda-tanda ovulasi dan cara mengidentifikasinya?"],
+        "context": [""]
+    },
+    {
+        "tag": "fibroid1",
+        "patterns": ["Mioma Uteri"],
+        "responses": ["Mioma uteri adalah tumor jinak yang tumbuh di dinding rahim dan bisa menyebabkan gejala seperti nyeri dan pendarahan yang berat. Apakah Anda ingin mengetahui lebih lanjut tentang pengobatannya?"],
+        "context": [""]
+    },
+    {
+        "tag": "pcos1",
+        "patterns": ["Sindrom Ovarium Polikistik"],
+        "responses": ["Sindrom ovarium polikistik (PCOS) adalah kondisi hormonal yang umum pada wanita dan bisa menyebabkan masalah kesuburan dan gejala lainnya. Apakah Anda ingin mengetahui lebih lanjut?"],
+        "context": [""]
+    },
+    {
+        "tag": "vulvitis1",
+        "patterns": ["Vulvitis"],
+        "responses": ["Vulvitis adalah peradangan pada area vulva yang bisa disebabkan oleh infeksi atau iritasi. Apakah Anda ingin mengetahui lebih lanjut tentang gejala dan pengobatannya?"],
+        "context": [""]
+    },
+    {
+        "tag": "osteoporosis1",
+        "patterns": ["Osteoporosis"],
+        "responses": ["Osteoporosis adalah kondisi di mana tulang menjadi rapuh dan rentan patah tulang. Apakah Anda ingin mengetahui lebih lanjut tentang pencegahan dan pengobatannya?"],
+        "context": [""]
+    },
+    {
+        "tag": "kanker_serviks1",
+        "patterns": ["Kanker Serviks"],
+        "responses": ["Kanker serviks adalah jenis kanker yang paling umum pada wanita dan biasanya disebabkan oleh infeksi virus HPV. Apakah Anda ingin mengetahui lebih lanjut tentang pencegahan dan pengobatannya?"],
+        "context": [""]
+    },
+    {
+        "tag": "payudara_bengkak1",
+        "patterns": ["Payudara Bengkak"],
+        "responses": ["Payudara bengkak bisa menjadi tanda perubahan hormon, infeksi, atau kondisi medis lainnya. Apakah Anda ingin mengetahui lebih lanjut tentang penyebabnya?"],
+        "context": [""]
+    },
+    {
+        "tag": "perdarahan_postmenopause1",
+        "patterns": ["Perdarahan Setelah Menopause"],
+        "responses": ["Perdarahan setelah menopause bisa menjadi tanda masalah serius dan perlu dievaluasi oleh dokter. Apakah Anda ingin mengetahui lebih lanjut tentang penyebabnya?"],
+        "context": [""]
+    },
+    {
+        "tag": "tingkat_hormon1",
+        "patterns": ["Tes Tingkat Hormon"],
+        "responses": ["Tes tingkat hormon bisa membantu mengidentifikasi masalah kesehatan wanita seperti gangguan hormonal atau masalah kesuburan. Apakah Anda ingin mengetahui lebih lanjut tentang prosedur ini?"],
+        "context": [""]
+    },    
+    {"tag": "penutup2",
+        "patterns": ["terima kasih"],
+        "responses": ["Kami akan mengabari Anda secepatnya"],
+        "context": [""]
+    },
+    {
+        "tag": "menstruasi2",
+        "patterns": ["Berapa lama menstruasi normal berlangsung?"],
+        "responses": ["Durasi menstruasi normal berkisar antara 3-7 hari. Namun, setiap wanita bisa berbeda. Apakah ada pertanyaan lain terkait menstruasi?"],
+        "context": [""]
+    },
+    {
+        "tag": "polip2",
+        "patterns": ["Apakah polip rahim berbahaya?"],
+        "responses": ["Polip rahim biasanya bersifat jinak, tetapi bisa menyebabkan pendarahan abnormal atau kesulitan hamil. Konsultasikan dengan dokter untuk evaluasi lebih lanjut."],
+        "context": [""]
+    },
+    {
+        "tag": "infeksi2",
+        "patterns": ["Bagaimana cara mencegah infeksi saluran kemih?"],
+        "responses": ["Beberapa cara mencegah infeksi saluran kemih termasuk minum cukup air, menjaga kebersihan genital, dan buang air kecil setelah berhubungan seksual. Apakah ada hal lain yang ingin Anda ketahui?"],
+        "context": [""]
+    },
+    {
+        "tag": "endometriosis2",
+        "patterns": ["Apakah endometriosis dapat disembuhkan?"],
+        "responses": ["Endometriosis tidak memiliki penyembuhan, tetapi bisa dikelola dengan pengobatan untuk mengendalikan gejala dan meningkatkan kesuburan. Apakah ada pertanyaan lain tentang kondisi ini?"],
+        "context": [""]
+    },
+    {
+        "tag": "kb2",
+        "patterns": ["Apa kelebihan dan kekurangan pil KB?"],
+        "responses": ["Pil KB efektif dalam mencegah kehamilan tetapi bisa memiliki efek samping seperti perubahan mood dan mual. Diskusikan dengan dokter untuk memilih opsi yang sesuai dengan kebutuhan Anda."],
+        "context": [""]
+    },
+    {
+        "tag": "sts2",
+        "patterns": ["Kapan waktu yang tepat untuk melakukan tes PMS?"],
+        "responses": ["Tes PMS sebaiknya dilakukan secara teratur, terutama setelah berhubungan seks tanpa kondom dengan pasangan baru atau memiliki gejala PMS. Apakah ada pertanyaan lain terkait ini?"],
+        "context": [""]
+    },
+    {
+        "tag": "ovulasi2",
+        "patterns": ["Bagaimana cara mengetahui kapan ovulasi terjadi?"],
+        "responses": ["Tanda-tanda ovulasi termasuk peningkatan lendir serviks, nyeri panggul, dan peningkatan suhu basal tubuh. Anda juga bisa menggunakan tes ovulasi. Apakah Anda ingin mengetahui lebih lanjut?"],
+        "context": [""]
+    },
+    {
+        "tag": "fibroid2",
+        "patterns": ["Apakah semua mioma uteri memerlukan pengobatan? "],
+        "responses": ["Tidak semua mioma uteri memerlukan pengobatan, terutama jika tidak menimbulkan gejala atau masalah kesuburan. Namun, disarankan untuk berkonsultasi dengan dokter untuk evaluasi lebih lanjut."],
+        "context": [""]
+    },
+    {
+        "tag": "pcos2",
+        "patterns": ["Bagaimana PCOS mempengaruhi kesuburan?"],
+        "responses": ["PCOS bisa menyebabkan ketidakseimbangan hormon yang mengganggu ovulasi, sehingga mempengaruhi kesuburan. Namun, dengan perawatan yang tepat, banyak wanita dengan PCOS bisa hamil."],
+        "context": [""]
+    },
+    {
+        "tag": "vulvitis2",
+        "patterns": ["Apakah vulvitis menular?"],
+        "responses": ["Vulvitis bisa disebabkan oleh infeksi jamur, bakteri, atau iritasi, tetapi tidak semua bentuk vulvitis bersifat menular. Pengobatan tergantung pada penyebabnya."],
+        "context": [""]
+    },
+    {
+        "tag": "osteoporosis2",
+        "patterns": ["Apa yang bisa dilakukan untuk mencegah osteoporosis?"],
+        "responses": ["Untuk mencegah osteoporosis, penting untuk mengonsumsi cukup kalsium dan vitamin D, berolahraga secara teratur, dan menghindari merokok dan konsumsi alkohol berlebihan."],
+        "context": [""]
+    },
+    {
+        "tag": "kanker_serviks2",
+        "patterns": ["Apakah vaksin HPV efektif dalam mencegah kanker serviks?"],
+        "responses": ["Ya, vaksin HPV efektif dalam mencegah infeksi virus HPV yang berhubungan dengan kanker serviks. Penting untuk mendapatkan vaksinasi sesuai jadwal."],
+        "context": [""]
+    },
+    {
+        "tag": "payudara_bengkak2",
+        "patterns": ["Kapan sebaiknya saya berkonsultasi dengan dokter tentang payudara bengkak?"],
+        "responses": ["Jika Anda mengalami payudara bengkak yang tidak biasa atau menyakitkan, sebaiknya segera berkonsultasi dengan dokter untuk evaluasi lebih lanjut."],
+        "context": [""]
+    },
+    {
+        "tag": "perdarahan_postmenopause2",
+        "patterns": ["Apakah perdarahan setelah menopause selalu menjadi tanda kanker?"],
+        "responses": ["Perdarahan setelah menopause bisa menjadi tanda kanker serviks, endometrium, atau kondisi lainnya. Penting untuk segera berkonsultasi dengan dokter untuk evaluasi lebih lanjut."],
+        "context": [""]
+    },
+    {
+        "tag": "tingkat_hormon2",
+        "patterns": ["Kapan waktu yang tepat untuk melakukan tes tingkat hormon?"],
+        "responses": ["Tes tingkat hormon sebaiknya dilakukan sesuai petunjuk dokter, terutama jika mengalami gejala yang mengindikasikan gangguan hormonal atau masalah kesuburan."],
+        "context": [""]
+    },
+    {
+        "tag": "menstruasi3",
+        "patterns": ["Apakah nyeri saat menstruasi normal?"],
+        "responses": ["Nyeri saat menstruasi atau dismenore bisa normal,Namun, jika nyeri tersebut sangat parah atau mengganggu aktivitas sehari-hari, sebaiknya berkonsultasi dengan dokter untuk evaluasi lebih lanjut dan pengobatan yang sesuai."],
+        "context": [""]
+        },
+        {
+        "tag": "polip3",
+        "patterns": ["Apakah polip rahim bisa menyebabkan infertilitas?"],
+        "responses": ["Polip rahim dapat menyebabkan kesulitan hamil, terutama jika terletak di tempat yang mengganggu implantasi embrio. Konsultasikan dengan dokter untuk evaluasi dan pengobatan lebih lanjut."],
+        "context": [""]
+        },
+        {
+        "tag": "infeksi3",
+        "patterns": ["Apakah infeksi saluran kemih bisa sembuh sendiri?"],
+        "responses": ["Infeksi saluran kemih bisa sembuh sendiri pada beberapa kasus ringan, tetapi seringkali memerlukan pengobatan antibiotik untuk mencegah komplikasi. Konsultasikan dengan dokter untuk penanganan yang tepat."],
+        "context": [""]
+        },
+        {
+        "tag": "endometriosis3",
+        "patterns": ["Apakah endometriosis bisa kembali setelah pengobatan?"],
+        "responses": ["Endometriosis bisa kembali setelah pengobatan, terutama jika tidak diobati secara menyeluruh atau faktor pemicu tidak dihilangkan. Pengelolaan jangka panjang dan konsultasi rutin dengan dokter sangat penting."],
+        "context": [""]
+        },
+        {
+        "tag": "kb3",
+        "patterns": ["Bagaimana cara memilih metode kontrasepsi yang tepat?"],
+        "responses": ["Pemilihan metode kontrasepsi tergantung pada preferensi pribadi, kesehatan, dan kebutuhan reproduksi. Diskusikan dengan dokter untuk memilih opsi yang paling sesuai untuk Anda."],
+        "context": [""]
+        },
+        {
+        "tag": "sts3",
+        "patterns": ["Apakah kondom cukup efektif dalam mencegah PMS?"],
+        "responses": ["Kondom adalah metode kontrasepsi yang efektif dalam mencegah penularan PMS jika digunakan dengan benar setiap kali berhubungan seks. Namun, tidak 100% efektif."],
+        "context": [""]
+        },
+        {
+        "tag": "ovulasi3",
+        "patterns": ["Apakah ovulasi selalu terjadi setiap bulan?"],
+        "responses": ["Ovulasi tidak selalu terjadi setiap bulan, terutama jika ada gangguan hormon atau kondisi kesehatan tertentu. Faktor seperti stres atau penyakit juga bisa memengaruhi ovulasi."],
+        "context": [""]
+        },
+        {
+        "tag": "fibroid3",
+        "patterns": ["Apakah semua mioma uteri memerlukan pengobatan? "],
+        "responses": ["Tidak semua mioma uteri memerlukan pengobatan, terutama jika tidak menimbulkan gejala atau masalah kesuburan. Namun, disarankan untuk berkonsultasi dengan dokter untuk evaluasi lebih lanjut."],
+        "context": [""]
+        },
+        {
+        "tag": "pcos3",
+        "patterns": ["Apakah PCOS bisa sembuh setelah hamil?"],
+        "responses": ["Kehamilan bisa mengubah gejala PCOS, tetapi kondisi ini biasanya tidak sembuh sepenuhnya setelah melahirkan. Pengelolaan jangka panjang masih diperlukan."],
+        "context": [""]
+        },
+        {
+        "tag": "vulvitis3",
+        "patterns": ["Apakah vulvitis berbahaya?"],
+        "responses": ["Vulvitis biasanya tidak berbahaya tetapi bisa menyebabkan ketidaknyamanan dan peradangan. Pengobatan segera diperlukan untuk mencegah komplikasi."],
+        "context": [""]
+        },
+        {
+        "tag": "osteoporosis3",
+        "patterns": ["Apakah orang muda bisa mengalami osteoporosis?"],
+        "responses": ["Meskipun osteoporosis umumnya terjadi pada usia lanjut, orang muda dengan kondisi medis tertentu atau faktor risiko tertentu juga bisa mengalami osteoporosis. Pencegahan penting sejak dini."],
+        "context": [""]
+        },
+        {
+        "tag": "kanker_serviks3",
+        "patterns": ["Apakah vaksin HPV aman?"],
+        "responses": ["Ya, vaksin HPV telah terbukti aman dan efektif dalam mencegah infeksi virus HPV yang berhubungan dengan kanker serviks. Diskusikan dengan dokter jika Anda memiliki kekhawatiran."],
+        "context": [""]
+        },
+        {
+        "tag": "payudara_bengkak3",
+        "patterns": ["Apa yang bisa menyebabkan payudara bengkak selain kehamilan?"],
+        "responses": ["Payudara bengkak juga bisa disebabkan oleh perubahan hormonal, infeksi, atau kondisi medis seperti mastitis. Konsultasikan dengan dokter untuk evaluasi lebih lanjut."],
+        "context": [""]
+        },
+        {
+        "tag": "perdarahan_postmenopause3",
+        "patterns": ["Apakah perdarahan setelah menopause selalu menjadi tanda kanker?"],
+        "responses": ["Perdarahan setelah menopause bisa menjadi tanda kanker serviks, endometrium, atau kondisi lainnya. Penting untuk segera berkonsultasi dengan dokter untuk evaluasi lebih lanjut."],
+        "context": [""]
+        },
+        {
+        "tag": "tingkat_hormon3",
+        "patterns": ["Apakah tes tingkat hormon menyakitkan?"],
+        "responses": ["Tes tingkat hormon umumnya tidak menyakitkan. Tes darah bisa dilakukan untuk mengukur tingkat hormon dalam tubuh. Diskusikan dengan dokter jika Anda memiliki kekhawatiran."],
+        "context": [""]
+        }
+]
+}
