@@ -5,7 +5,12 @@ app = Flask(__name__)
 app.static_folder = 'tatic'
 
 if __name__ == "__main__":
-    app.run(port=5001)
+    if st._is_running_with_streamlit:
+        # Logika Streamlit
+        pass
+    else:
+        app.run(port=5001)
+
 
 import nltk
 nltk.download('popular')
