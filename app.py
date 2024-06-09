@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.static_folder = 'tatic'
 
 if __name__ == "__main__":
-    app.run(port=5000)
+    app.run(port=5001)
 
 import nltk
 nltk.download('popular')
