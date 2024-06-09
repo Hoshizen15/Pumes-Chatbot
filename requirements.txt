@@ -1,7 +1,8 @@
-Flask
-streamlit
-nltk
-numpy
-tensorflow
 keras
 pickle
+Flask==2.0.1
+streamlit==1.4.0
+nltk==3.6.3
+numpy==1.19.5
+tensorflow==2.6.0
+requests==2.26.0
